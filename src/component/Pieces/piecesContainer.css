@@ -1,0 +1,59 @@
+.redPieceZone{
+    /*background-color: rgba(246, 241, 241, 0.447);*/
+    JUSTIFY-CONTENT: center;
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: repeat(10,70px);
+    grid-template-rows:repeat(2,70px) ;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+  
+}
+/*0e86eb*/
+/* e3ea17  */
+.greenPieceZone{
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: repeat(5,70px);
+    grid-template-rows:repeat(2,70px) ;
+}
+
+.bluePieceZone{
+    /*background-color: rgb(95, 95, 203);*/
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: repeat(5,70px);
+    grid-template-rows:repeat(2,70px) ;
+}
+
+.yellowPieceZone{
+    /*background-color: rgb(187, 203, 95);*/
+    JUSTIFY-CONTENT: center;
+    border-radius: 5px;
+    display:grid;
+    grid-template-columns: repeat(10,70px);
+    grid-template-rows:repeat(2,70px) ;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.tail{
+    width:70px;
+    height: 70px;
+    display: grid;
+    place-content: center;
+    background-size: 90px 90px;
+    cursor: pointer; 
+    
+}
+
+.tail:hover {
+    -webkit-filter: drop-shadow(2px 2px 0 rgb(233, 164, 16))
+                    drop-shadow(-2px -2px 0 rgb(233, 164, 16));
+    filter: drop-shadow(2px 2px 0 rgb(233, 164, 16)) 
+            drop-shadow(-2px -2px 0 rgb(233, 164, 16));
+
+   
+          
+}
+

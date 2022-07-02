@@ -1,0 +1,96 @@
+// array of red pieces
+const PieceImageR =[];
+PieceImageR.push({image: "./assests/redImagePieces/1r.png" ,l:4 , m:1 ,id:"1r"});
+PieceImageR.push({image:  "./assests/redImagePieces/2r.png"  ,l:3 , m:2,id:"2r" });
+PieceImageR.push({image:  "./assests/redImagePieces/3r.png"  ,l:4 , m:2 ,id:"3r"});
+PieceImageR.push({image: "./assests/redImagePieces/4r.png"  ,l:4 , m:2 ,id:"4r"});
+PieceImageR.push({image:  "./assests/redImagePieces/5r.png"  ,l:2 , m:2 ,id:"5r"});
+PieceImageR.push({image: "./assests/redImagePieces/6r.png"  ,l:3 , m:3 ,id:"6r"});
+PieceImageR.push({image:  "./assests/redImagePieces/7r.png"  ,l:3, m:3 ,id:"7r"});
+PieceImageR.push({image:  "./assests/redImagePieces/8r.png"  ,l:2 , m:2,id:"8r" });
+PieceImageR.push({image:  "./assests/redImagePieces/9r.png"  ,l:4 , m:2 ,id:"9r"});
+PieceImageR.push({image:  "./assests/redImagePieces/10r.png"  ,l:3 , m:2 ,id:"10r"});
+PieceImageR.push({image:  "./assests/redImagePieces/11r.png"  ,l:3 , m:3,id:"11r" });
+PieceImageR.push({image:  "./assests/redImagePieces/12r.png"  ,l:3 , m:3 ,id:"12r"});
+PieceImageR.push({image:  "./assests/redImagePieces/13r.png"  ,l:3 , m:2 ,id:"13r"});
+PieceImageR.push({image:  "./assests/redImagePieces/14r.png"  ,l:3 , m:1,id:"14r" });
+PieceImageR.push({image:  "./assests/redImagePieces/15r.png"  ,l:3 , m:2 ,id:"15r"});
+PieceImageR.push({image:  "./assests/redImagePieces/16r.png"  ,l:3 , m:3 ,id:"16r"});
+PieceImageR.push({image:  "./assests/redImagePieces/17r.png"  ,l:3 , m:3,id:"17r" });
+PieceImageR.push({image:  "./assests/redImagePieces/18r.png"  ,l:3 , m:2 ,id:"18r"});
+PieceImageR.push({image:  "./assests/redImagePieces/19r.png"  ,l:1 , m:1 ,id:"19r"});
+PieceImageR.push({image:  "./assests/redImagePieces/20r.png"  ,l:2 , m:1 ,id:"20r" });
+
+// array of green pieces
+const PieceImageG =[];
+PieceImageG.push({image: "./assests/greenImagePieces/1g.png" ,l:4 , m:1,id:"1g" });
+PieceImageG.push({image: "./assests/greenImagePieces/2g.png" ,l:3 , m:2,id:"2g" });
+PieceImageG.push({image: "./assests/greenImagePieces/3g.png" ,l:4 , m:2 ,id:"3g"});
+PieceImageG.push({image: "./assests/greenImagePieces/4g.png" ,l:4 , m:2 ,id:"4g"});
+PieceImageG.push({image: "./assests/greenImagePieces/5g.png" ,l:2 , m:2 ,id:"5g"});
+PieceImageG.push({image: "./assests/greenImagePieces/6g.png" ,l:3 , m:3 ,id:"6g"});
+PieceImageG.push({image: "./assests/greenImagePieces/7g.png" ,l:3 , m:3 ,id:"7g"});
+PieceImageG.push({image: "./assests/greenImagePieces/8g.png" ,l:2 , m:2 ,id:"8g"});
+PieceImageG.push({image: "./assests/greenImagePieces/9g.png" ,l:4 , m:2 ,id:"9g"});
+PieceImageG.push({image: "./assests/greenImagePieces/10g.png" ,l:3 , m:2 ,id:"10g"});
+PieceImageG.push({image: "./assests/greenImagePieces/11g.png" ,l:3 , m:3 ,id:"11g"});
+PieceImageG.push({image: "./assests/greenImagePieces/12g.png" ,l:3 , m:3 ,id:"12g"});
+PieceImageG.push({image: "./assests/greenImagePieces/13g.png" ,l:3 , m:2 ,id:"13g"});
+PieceImageG.push({image: "./assests/greenImagePieces/14g.png" ,l:3 , m:1 ,id:"14g"});
+PieceImageG.push({image: "./assests/greenImagePieces/15g.png" ,l:3 , m:2 ,id:"15g"});
+PieceImageG.push({image: "./assests/greenImagePieces/16g.png" ,l:3 , m:3 ,id:"16g"});
+PieceImageG.push({image: "./assests/greenImagePieces/17g.png" ,l:3 , m:3 ,id:"17g"});
+PieceImageG.push({image: "./assests/greenImagePieces/18g.png" ,l:3 , m:2.2 ,id:"18g"});
+PieceImageG.push({image: "./assests/greenImagePieces/19g.png" ,l:1 , m:1 ,id:"19g"});
+PieceImageG.push({image: "./assests/greenImagePieces/20g.png" ,l:2 , m:1 ,id:"20g"});
+
+const PieceImageB =[];
+PieceImageB.push({image: "./assests/blueImagePieces/1b.png" ,l:4 , m:1,id:"1b" });
+PieceImageB.push({image: "./assests/blueImagePieces/2b.png" ,l:3 , m:2,id:"2b" });
+PieceImageB.push({image: "./assests/blueImagePieces/3b.png" ,l:4 , m:2 ,id:"3b"});
+PieceImageB.push({image: "./assests/blueImagePieces/4b.png" ,l:4 , m:2 ,id:"4b"});
+PieceImageB.push({image: "./assests/blueImagePieces/5b.png" ,l:2 , m:2 ,id:"5b"});
+PieceImageB.push({image: "./assests/blueImagePieces/6b.png" ,l:3 , m:3 ,id:"6b"});
+PieceImageB.push({image: "./assests/blueImagePieces/7b.png" ,l:3 , m:3 ,id:"7b"});
+PieceImageB.push({image: "./assests/blueImagePieces/8b.png" ,l:2 , m:2 ,id:"8b"});
+PieceImageB.push({image: "./assests/blueImagePieces/9b.png" ,l:4 , m:2 ,id:"9b"});
+PieceImageB.push({image: "./assests/blueImagePieces/10b.png" ,l:3 , m:2 ,id:"10b"});
+PieceImageB.push({image: "./assests/blueImagePieces/11b.png" ,l:3 , m:3 ,id:"11b"});
+PieceImageB.push({image: "./assests/blueImagePieces/12b.png" ,l:3 , m:3 ,id:"12b"});
+PieceImageB.push({image: "./assests/blueImagePieces/13b.png" ,l:3 , m:2 ,id:"13b"});
+PieceImageB.push({image: "./assests/blueImagePieces/14b.png" ,l:3 , m:1 ,id:"14b"});
+PieceImageB.push({image: "./assests/blueImagePieces/15b.png" ,l:3 , m:2 ,id:"15b"});
+PieceImageB.push({image: "./assests/blueImagePieces/16b.png" ,l:3 , m:3 ,id:"16b"});
+PieceImageB.push({image: "./assests/blueImagePieces/17b.png" ,l:3 , m:3 ,id:"17b"});
+PieceImageB.push({image: "./assests/blueImagePieces/18b.png" ,l:3 , m:2.2 ,id:"18b"});
+PieceImageB.push({image: "./assests/blueImagePieces/19b.png" ,l:1 , m:1 ,id:"19b"});
+PieceImageB.push({image: "./assests/blueImagePieces/20b.png" ,l:2 , m:1 ,id:"20b"});
+
+
+const PieceImageY =[];
+PieceImageY.push({image: "./assests/yellowImagePieces/1y.png" ,l:4 , m:1,id:"1y" });
+PieceImageY.push({image: "./assests/yellowImagePieces/2y.png" ,l:3 , m:2,id:"2y" });
+PieceImageY.push({image: "./assests/yellowImagePieces/3y.png" ,l:4 , m:2 ,id:"3y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/4y.png" ,l:4 , m:2 ,id:"4y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/5y.png" ,l:2 , m:2 ,id:"5y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/6y.png" ,l:3 , m:3 ,id:"6y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/7y.png" ,l:3 , m:3 ,id:"7y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/8y.png" ,l:2 , m:2 ,id:"8y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/9y.png" ,l:4 , m:2 ,id:"9y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/10y.png" ,l:3 , m:2 ,id:"10y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/11y.png" ,l:3 , m:3 ,id:"11y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/12y.png" ,l:3 , m:3 ,id:"12y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/13y.png" ,l:3 , m:2 ,id:"13y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/14y.png" ,l:3 , m:1 ,id:"14y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/15y.png" ,l:3 , m:2 ,id:"15y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/16y.png" ,l:3 , m:3 ,id:"16y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/17y.png" ,l:3 , m:3 ,id:"17y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/18y.png" ,l:3 , m:2.2 ,id:"18y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/19y.png" ,l:1 , m:1 ,id:"19y"});
+PieceImageY.push({image: "./assests/yellowImagePieces/20y.png" ,l:2 , m:1 ,id:"20y"});
+
+
+export {PieceImageG};
+export {PieceImageR};
+export {PieceImageB};
+export {PieceImageY};

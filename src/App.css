@@ -1,38 +1,119 @@
 .App {
-  text-align: center;
+  width: 100vh ;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.playZone{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /*background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);*/
+  background-color: #0c1368;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:1000px;
+  height:100vh;
+ border-radius: 150px;
+ margin: 5px ;
+ 
+}
+
+.playZoneMidelle{
+  display: flex;
+  flex-direction:row;
+  background-color:#0c1368;
+}
+
+.buttonZone{
+margin: 10px;
+width: 300px;
+align-items: center;
+
+}
+
+
+.scoreZone{
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
   color: white;
+  width: 225px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.colorImageScore{
+  width: 15px;
+  height: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.scoreImage{
+  display: flex;
+  flex-direction: row;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.score{
+  margin: 5px;
+}
+
+
+.flipRotateButton{
+  margin-top: 10px;
+  width:225px;
+  height: 80px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  padding: 5px;
+  text-align: center;
+ 
+}
+
+.flipRotateButton:hover{
+  cursor: pointer;
+  background:linear-gradient(90deg, #00d0ff9a 0%, #3a47d5b9 100%);
+
+}
+
+
+.rules{
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  width:225px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  font-weight: 900;
+}
+
+.rules:hover{
+  cursor: pointer;
+ 
+  background:linear-gradient(90deg, #00d0ff9a 0%, #3a47d5b9 100%);
+}
+
+.swal2-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ho{
+  -webkit-filter: drop-shadow(2px 2px 0 rgb(233, 164, 16))
+  drop-shadow(-2px -2px 0 rgb(233, 164, 16));
+filter: drop-shadow(2px 2px 0 rgb(233, 164, 16)) 
+drop-shadow(-2px -2px 0 rgb(233, 164, 16));
+}
+
+a {
+  font-weight: 300;
+  font-size: 15px;
+  color:white;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
 }
