@@ -71,7 +71,7 @@ function App() {
      <div className = "buttonZone">
 
        <div className ='scoreZone'>
-         <div> score:</div>
+         <div> Score:</div>
        <div className='scoreImage'>
          <div className='score'>
            <img src='./assests/redImagePieces/19r.png' className='colorImageScore'/>
@@ -100,13 +100,6 @@ function App() {
        <img src="./assests/rotate.png" alt="Something" height="80" width="80"/>
        </div>
 
-       <div className ='flipRightLeft flipRotateButton'  onClick={()=>flip(idActivePiece,classeName)}>
-       <img src="./assests/flip-right-left.png" alt="Something" height="80" width="80"/>
-       </div>
-
-       <div className ='flipUpDown flipRotateButton'>
-       <img src="./assests/flip-up-down.png" alt="Something" height="80" width="80"/>
-       </div>
 
        <div className ='rules'  onClick={()=>skipTurn(classeName,setClasseName)}>
          Skip Turn
@@ -120,10 +113,21 @@ function App() {
        <div className ='rules' >
        <a href="https://khaoula-khemiri.github.io/" target="_blank"> Copyright &copy; <span id="current-year">2022</span> Khaoula khemiri</a>
        </div>
+       <div  >
+       <img src="./assests/ninja-think.gif" alt="Something" height="200" width="200"/>
+       </div>
      </div>
    </div>
-   
+
   );
 }
 
 export default App;
+
+/*<div className ='flipRightLeft flipRotateButton'  onClick={()=>flip(idActivePiece,classeName)}>
+       <img src="./assests/flip-right-left.png" alt="Something" height="80" width="80"/>
+       </div>
+
+       <div className ='flipUpDown flipRotateButton'>
+       <img src="./assests/flip-up-down.png" alt="Something" height="80" width="80"/>
+       </div>*/

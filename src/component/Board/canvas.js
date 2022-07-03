@@ -35,6 +35,7 @@ const Canvas = ({width,height,id, setid, setPlayer ,player, setscore, scorePlaye
 
   const draw = (e) =>{
     arrayOfPieces.map((p)=>{if(p.id === id){piece = p.piece}});
+  
     if(piece){
   
      const h = structuredClone(board);
@@ -159,6 +160,7 @@ const Canvas = ({width,height,id, setid, setPlayer ,player, setscore, scorePlaye
      onMouseMove = {draw}
      onMouseDown = {verifyPlacement}
      onMouseLeave = {mouseLeave}
+     
     />
      
   );
